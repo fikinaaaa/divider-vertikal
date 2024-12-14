@@ -14,11 +14,11 @@ class MyApp extends StatelessWidget {
         ),
         body: Padding(
           padding: const EdgeInsets.all(10), // Memberikan padding di sekitar kotak
-          child: Row(
+          child: Column(
             children: [
               Expanded(
                 child: Container(
-                  margin: EdgeInsets.only(right: 10), // Memberikan ruang di antara kotak
+                  margin: EdgeInsets.only(bottom: 10), // Memberikan ruang di antara kotak
                   decoration: BoxDecoration(
                     color: Colors.pink, // Warna latar belakang pink
                     borderRadius: BorderRadius.circular(20), // Sudut tumpul
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
               ),
               Expanded(
                 child: Container(
-                  margin: EdgeInsets.only(left: 10), // Memberikan ruang di antara kotak
+                  margin: EdgeInsets.only(top: 10), // Memberikan ruang di antara kotak
                   decoration: BoxDecoration(
                     color: Colors.pink, // Warna latar belakang pink
                     borderRadius: BorderRadius.circular(20), // Sudut tumpul
